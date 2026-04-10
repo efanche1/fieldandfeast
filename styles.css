@@ -82,6 +82,7 @@ header img {
 
 header p {
     font-style: italic;
+    font-size: 1em;
     text-align: center;
     padding: 1.5em 0;
 }
@@ -102,8 +103,55 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     color: var(--midnight-blue);
+}
+
+main {
+    background-color: var(--linen);
+    padding: 1.5em 1.5em;
+}
+
+h2 {
+    font-size: 1.6em;
+    padding-top: 1em;
+}
+
+p {
+    font-size: 0.8em;
+    line-height: 1.5;
+    padding: 0.5em 0 1.5em 0;
+}
+
+section:not(section *) {
+    border-bottom: var(--champagne-gold) solid 2px;
+}
+
+.offering {
+    background-color: var(--olive-green);
+    color: var(--linen);
+    border-radius: 7px;
+    margin: 1em 0;
+    padding:1.25em 1em 1em 1em;
+}
+
+.offering p {
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-bottom: 0.25em;
+}
+
+ul {
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+ul li {
+    list-style:inside;
 }
 
 /* MEDIA QUERY (medium) */
