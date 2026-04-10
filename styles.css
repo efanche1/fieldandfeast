@@ -64,6 +64,47 @@ table {
 }
 
 /* GLOBAL STYLES (small) */
+body {
+    font-family: 'playfair display';
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+}
+
+header img {
+    width: 50%;
+    display: block;
+    padding: 1em 0;
+    margin: auto;
+}
+
+header p {
+    font-style: italic;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3.25em;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+    padding: 0.75em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--midnight-blue);
+}
 
 /* MEDIA QUERY (medium) */
 
