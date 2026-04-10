@@ -154,6 +154,10 @@ ul li {
     list-style:inside;
 }
 
+img {
+    width:100%;
+}
+
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
